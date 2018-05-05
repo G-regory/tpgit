@@ -1,0 +1,40 @@
+/*cube flexbox*/
+#conteneur{
+    border: 2px solid black;
+    height: 300px;
+    display: inline-block;
+    vertical-align:top;
+    
+}
+#conteneur2{
+    border: 2px solid black;
+    height: 200px;
+    display: inline-block;  
+    vertical-align: top
+}
+/*titre FLEXBOX en gris*/
+h1{
+	text-align: center;
+	color: rgba(0,0,1,0.0.3);
+}
+
+.element:nth-child(n){
+    
+    background-color: pink;
+        height: 80px;
+    width: 90px;
+
+}
+.element:nth-child(2n){
+    
+    background-color: black;
+        height: 80px;
+    width: 90px;
+}
+.element:nth-child(3n){
+    
+    background: green;
+        height: 80px;
+    width: 90px;
+    
+}
